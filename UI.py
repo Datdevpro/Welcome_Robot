@@ -89,7 +89,7 @@ frame = tk.Frame(root, bg='#CCFFFF')
 frame.pack(side='top', fill=None, expand = False)
 
 #image
-image = Image.open("webjs/DUT.jpg")
+image = Image.open("DUT.jpg")
 resize_img = resize_image(image, 110, 100)
 tk_img = ImageTk.PhotoImage(resize_img)
 image_label = Label(frame, image=tk_img)
